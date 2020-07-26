@@ -62,11 +62,13 @@ for (question of questions) {
 
 submit.onclick = function() {
     console.log('Calculating score.');
-    let points = 100;
-    for (checkbox of list.getElementsByClassName('checkbox')) {
+    let checkboxes = list.getElementsByClassName('checkbox');
+    let total = checkboxes.length;
+    let points = total;
+    for (checkbox of checkboxes) {
         if (checkbox.checked) points--;
     }
-    score.textContent = points;
+    score.textContent = points + '/' + total;
     test.classList.remove('shown');
     results.classList.add('shown');
 };
