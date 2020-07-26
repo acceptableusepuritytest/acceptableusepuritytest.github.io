@@ -17,17 +17,24 @@ html {
 body {
     background-color: rgba(255, 255, 255, 0.95);
     color: #333;
-    padding: 10px;
+    padding: 20px 15px;
     font-size: 16px;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
 }
-img {
-    width: 500px;
-    max-width: 95vw;
+.ribbon {
+    position: relative;
+    bottom: -10px;
+    left: -140px;
+    z-index: 100;
+    color: red;
+    font-weight: bold;
+    transform: rotate(-10deg);
 }
 p {
     text-align: center;
+    max-width: 8in;
+    margin: 0 auto;
 }
 ol {
     margin-left: 35px;
