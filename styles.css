@@ -10,8 +10,12 @@
     margin: 0;
     padding: 0;
 }
+html {
+    background: url(images/fccps.png) white repeat;
+    background-size: 150px;
+}
 body {
-    border-top: solid 10px #00356b;
+    background-color: rgba(255, 255, 255, 0.95);
     color: #333;
     padding: 10px;
     font-size: 16px;
