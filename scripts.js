@@ -79,7 +79,7 @@ submit.onclick = function() {
     for (checkbox of checkboxes) {
         if (checkbox.checked) points--;
     }
-    score.textContent = points + '/' + total;
+    score.textContent = (points * 2) + '/' + (total * 2);
     test.classList.remove('shown');
     results.classList.add('shown');
 };
