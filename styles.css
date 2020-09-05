@@ -14,7 +14,7 @@ html, body {
     min-height: 100%;
 }
 body {
-    background: url(images/bg.png) white repeat;
+    background: url(images/bg.png) #fdeec7 repeat;
     background-size: 150px;
     color: #333;
     padding: 20px 15px;
