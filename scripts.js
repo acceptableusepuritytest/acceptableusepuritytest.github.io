@@ -35,7 +35,7 @@ const questions = [
     'Used FCCPS electronic media for any illegal activity',
     'Used FCCPS electronic media while access privileges were suspended or revoked',
     'Connected your phone or another private device to an FCCPS WiFi network',
-    'Connected a device other not owned by FCCPS to FCCPS hardware',
+    'Connected another device not owned by FCCPS to FCCPS hardware',
     'Permanently disabled FCCPS security software on your computer',
     'Uploaded a worm, virus, or other harmful software to FCCPS electronic media',
     'Created a worm, virus, or other harmful software with or for FCCPS electronic media',
